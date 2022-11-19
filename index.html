@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-avatar">
+            <img src="assets/images/loginImage.png" alt="">
+        </div>
+        <div class="login-form">
+            <div class="login-form-container">
+                <div class="login-form-header">
+                    <h1>Accio Chat</h1>
+                </div>
+                <div class="login-form-input">
+                    <!-- <label for="email">Email</label> -->
+                    <input type="email" id="input-email" placeholder="Enter your email" autocomplete="email">
+                    <div class="warning" id="email-warning"></div>
+                </div>
+                <div class="login-form-input">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="input-password" placeholder="Enter your password">
+                    <div class="warning" id="password-warning"></div>
+                </div>
+                <div class="login-form-btn">
+                    <button onclick="login()">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
